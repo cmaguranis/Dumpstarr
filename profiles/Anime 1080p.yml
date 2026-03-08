@@ -47,8 +47,6 @@ custom_formats:
   score: 1000
 - name: Anime Tier 7
   score: 900
-- name: Anime Tier 8
-  score: 800
 - name: Anime Dual Audio
   score: 101
 - name: Multi-Audio
@@ -113,8 +111,12 @@ custom_formats:
   score: -10000
 - name: VOSTFR
   score: -10000
-custom_formats_radarr: []
-custom_formats_sonarr: []
+custom_formats_radarr:
+- name: Anime Tier 8
+  score: 2100
+custom_formats_sonarr:
+- name: Anime Tier 8
+  score: 800
 qualities:
 - id: 10
   name: Bluray-1080p

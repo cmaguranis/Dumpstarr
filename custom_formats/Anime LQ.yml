@@ -16,10 +16,10 @@ conditions:
   required: false
   type: release_title
 - name: '224'
-  type: release_title
-  required: false
   negate: false
   pattern: '224'
+  required: false
+  type: release_title
 - name: A-Destiny
   negate: false
   pattern: A-Destiny
@@ -593,11 +593,6 @@ conditions:
 - name: TeamTurquoize
   negate: false
   pattern: TeamTurquoize
-  required: false
-  type: release_title
-- name: Tenrai Sensei
-  negate: false
-  pattern: Tenrai Sensei
   required: false
   type: release_title
 - name: TnF

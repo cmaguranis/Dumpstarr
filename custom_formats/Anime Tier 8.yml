@@ -3,6 +3,7 @@ description: ''
 tags:
 - Anime
 - Group Tier
+- judas
 conditions:
 - name: Bluray
   negate: false
@@ -16,52 +17,52 @@ conditions:
   type: source
 - name: AkihitoSubs
   negate: false
+  pattern: AkihitoSubs
   required: false
   type: release_title
-  pattern: AkihitoSubs
 - name: Arukoru
   negate: false
+  pattern: Arukoru
   required: false
   type: release_title
-  pattern: Arukoru
 - name: EDGE
   negate: false
+  pattern: EDGE
   required: false
   type: release_title
-  pattern: EDGE
 - name: EMBER
   negate: false
+  pattern: EMBER
   required: false
   type: release_title
-  pattern: EMBER
 - name: GHOST
   negate: false
+  pattern: GHOST
   required: false
   type: release_title
-  pattern: GHOST
 - name: Judas
   negate: false
+  pattern: Judas
   required: false
   type: release_title
-  pattern: Judas
 - name: naiyas
   negate: false
+  pattern: naiyas
   required: false
   type: release_title
-  pattern: naiyas
 - name: Nep_Blanc
   negate: false
+  pattern: Nep_Blanc
   required: false
   type: release_title
-  pattern: Nep_Blanc
 - name: Prof
   negate: false
-  required: false
-  type: release_title
   pattern: Prof
-- name: Shirσ
-  negate: false
   required: false
   type: release_title
-  pattern: Shirσ
+- name: "Shir\u03C3"
+  negate: false
+  pattern: "Shir\u03C3"
+  required: false
+  type: release_title
 tests: []
