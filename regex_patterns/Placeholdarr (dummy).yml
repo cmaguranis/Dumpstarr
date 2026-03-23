@@ -1,0 +1,19 @@
+name: Placeholdarr (dummy)
+pattern: \b(dummy)\b
+description: ''
+tags:
+- placeholdarr
+- custom
+tests:
+- id: 1
+  input: Scarlet (2025) {tmdb-1406657} [WEBDL-1080p][AAC 2.0][h265]-ToonsHub.mkv
+  expected: false
+- id: 2
+  input: Scarlet (2025) {tmdb-1406657} (dummy).mkv
+  expected: true
+- id: 3
+  input: 100 Day Dream Home (2020) - s07e12 - Can't Contain Myself (dummy).mkv
+  expected: true
+- id: 4
+  input: 100 Day Dream Home (2020) - s07e12 - Can't Contain Myself.mkv
+  expected: false

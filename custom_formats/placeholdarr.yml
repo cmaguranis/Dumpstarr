@@ -1,0 +1,10 @@
+name: placeholdarr
+description: ''
+tags: []
+conditions:
+- name: is dummy
+  type: release_title
+  required: true
+  negate: false
+  pattern: Placeholdarr (dummy)
+tests: []
