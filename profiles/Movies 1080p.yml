@@ -31,6 +31,10 @@ custom_formats_radarr:
   score: 1550
 - name: WEB Tier 05
   score: 1500
+- name: Banned Groups
+  score: 1300
+- name: Banned Groups (Title)
+  score: 1300
 - name: x265 (HD)
   score: 1200
 - name: 1080p Bluray Tier 01
@@ -63,12 +67,16 @@ custom_formats_radarr:
   score: 550
 - name: Baseline Groups
   score: 500
+- name: SIDCA Groups
+  score: 200
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
   score: 125
 - name: Dolby Digital
   score: 115
+- name: SIDCA Fallback Groups
+  score: 100
 - name: 4K Remaster
   score: 25
 - name: Atmos
@@ -105,10 +113,6 @@ custom_formats_radarr:
   score: -10000
 - name: Bad Naming Scheme
   score: -10000
-- name: Banned Groups
-  score: -10000
-- name: Banned Groups (Title)
-  score: -10000
 - name: BR-DISK
   score: -10000
 - name: Dolby Vision WEB-DL
@@ -133,6 +137,8 @@ custom_formats_radarr:
   score: -10000
 - name: Upscaled
   score: -10000
+- name: Placeholdarr dummy
+  score: -99999
 custom_formats_sonarr: []
 qualities:
 - id: 10

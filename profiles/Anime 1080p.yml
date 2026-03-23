@@ -1,3 +1,25 @@
+name: Anime 1080p
+description: 'Based on the TRaSH Guides Anime Profile, focusing on media that has
+  Dual Audio.
+
+  - This profile will grab between a SDTV - 1080p Bluray file.
+
+  - You will be preferring Dual Audio media (ie including English along with original
+  language). If you''d prefer to **only** have the original language (Japanese), remove
+  the Dual Audio format and set you language settings in this profile to Advanced
+  - Must Include - Japanese.
+
+  - If you''d prefer to always grab Dual Audio releases, change the Dual Audio format
+  score from 101 to 500'
+tags:
+- Anime
+- Radarr
+- Sonarr
+- TRaSH
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
 custom_formats:
 - name: Anime WEB Tier 1
   score: 2000
@@ -89,34 +111,20 @@ custom_formats:
   score: -10000
 - name: VOSTFR
   score: -10000
+- name: Placeholdarr dummy
+  score: -99999
 custom_formats_radarr:
 - name: Anime Tier 8
   score: 2100
 custom_formats_sonarr:
 - name: Anime Tier 8
   score: 800
-description: 'Based on the TRaSH Guides Anime Profile, focusing on media that has
-  Dual Audio.
-
-  - This profile will grab between a SDTV - 1080p Bluray file.
-
-  - You will be preferring Dual Audio media (ie including English along with original
-  language). If you''d prefer to **only** have the original language (Japanese), remove
-  the Dual Audio format and set you language settings in this profile to Advanced
-  - Must Include - Japanese.
-
-  - If you''d prefer to always grab Dual Audio releases, change the Dual Audio format
-  score from 101 to 500'
-language: original
-minCustomFormatScore: 0
-minScoreIncrement: 1
-name: Anime 1080p
 qualities:
 - id: 10
   name: Bluray-1080p
-- description: ''
-  id: -2
+- id: -2
   name: WEB 1080p
+  description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
@@ -126,9 +134,9 @@ qualities:
     name: HDTV-1080p
 - id: 13
   name: Bluray-720p
-- description: ''
-  id: -3
+- id: -3
   name: WEB 720p
+  description: ''
   qualities:
   - id: 14
     name: WEBDL-720p
@@ -138,9 +146,9 @@ qualities:
     name: HDTV-720p
 - id: 18
   name: Bluray-480p
-- description: ''
-  id: -4
+- id: -4
   name: WEB 480p
+  description: ''
   qualities:
   - id: 20
     name: WEBRip-480p
@@ -150,14 +158,8 @@ qualities:
   name: DVD
 - id: 24
   name: SDTV
-tags:
-- Anime
-- Radarr
-- Sonarr
-- TRaSH
-upgradeUntilScore: 10000
 upgrade_until:
-  description: 1080p Blu-ray video encoded with lossy compression
   id: 10
   name: Bluray-1080p
-upgradesAllowed: true
+  description: 1080p Blu-ray video encoded with lossy compression
+language: original

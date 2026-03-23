@@ -1,0 +1,26 @@
+name: Placeholdarr dummy
+description: Placeholdarr dummy.mkv can be erroneously graded well in the format score.
+  This accounts for it by dropping any videos custom format when it is a (dummy).mk
+tags: []
+conditions:
+- name: match (dummy) in name
+  type: size
+  required: false
+  negate: false
+  minSize: ''
+  maxSize: '0'
+  minSizeUnit: GB
+  maxSizeUnit: GB
+tests:
+- conditionResults: []
+  expected: true
+  id: 1
+  input: Scarlet (2025) (dummy).mkv
+  lastRun: '2026-03-22T22:27:56.939670'
+  passes: true
+- conditionResults: []
+  expected: false
+  id: 2
+  input: Jungle Cruise (2021) {tmdb-451048} [Bluray-1080p][DV HDR10][EAC3 5.1][x265]-SM737.mkv
+  lastRun: '2026-03-22T22:27:56.939670'
+  passes: false
