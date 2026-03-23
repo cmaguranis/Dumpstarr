@@ -111,8 +111,6 @@ custom_formats:
   score: -10000
 - name: VOSTFR
   score: -10000
-- name: Placeholdarr dummy
-  score: -99999
 custom_formats_radarr:
 - name: Anime Tier 8
   score: 2100

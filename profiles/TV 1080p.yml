@@ -16,8 +16,6 @@ minScoreIncrement: 1
 custom_formats:
 - name: ASL
   score: -10000
-- name: Placeholdarr dummy
-  score: -99999
 custom_formats_radarr: []
 custom_formats_sonarr:
 - name: WEB Tier 01

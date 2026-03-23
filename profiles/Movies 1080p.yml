@@ -137,8 +137,6 @@ custom_formats_radarr:
   score: -10000
 - name: Upscaled
   score: -10000
-- name: Placeholdarr dummy
-  score: -99999
 custom_formats_sonarr: []
 qualities:
 - id: 10
